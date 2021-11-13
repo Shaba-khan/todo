@@ -1,0 +1,159 @@
+body {
+  height: 100vh;
+}
+
+form {
+  display: inline;
+}
+
+button {
+  margin: 3px;
+  cursor: pointer;
+}
+
+.to-do-app {
+  box-sizing: border-box;
+  width: 690px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #252525;
+}
+
+.header {
+  background:#4D648D;
+  padding: 7px;
+  border-radius: 3px 3px 0 0 ;
+  
+  }
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #f1f2f3;
+    font-weight: lighter;
+  }
+
+.create-new {
+  border-top: 1px solid #777;
+  width: 100%;
+  input {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+  }
+  button {
+    width: 25%;
+    background: #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0;
+    border: none;
+    border-left: 1px solid #999;
+    &:hover {
+      background: #ddd;
+    }
+  }
+}
+
+.items-list {
+  background:#f1f2f3;
+  border-radius: 3px;
+}
+
+.to-do-item {
+  border-bottom: 1px dashed #4d648d;
+  padding: 15px 0 15px 0;
+  margin: 1px 0 1px 0;
+  border-top: 1px solid darken(#138796, 20%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #4d648d;
+  font-weight: lighter;
+  user-select: none;
+}
+
+.name {
+  margin-left: 10px;
+  input {
+    width: 350px;
+    color: #333;
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+  }
+}
+
+.actions {
+  margin-right: 10px;
+  button {
+    padding: 7px;
+    border-radius: 2px;
+    border: none;
+    //background: #FFB923;
+    //background: #E5FF3D;
+    background: #333;
+    color: white;
+    font-weight: lighter;
+    //box-shadow: 0 0 5px darken(#138796, 12%);
+  }
+}
+.form-input{
+ width: 40%;
+ padding: 6px 8px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border-radius: 4px
+;
+}
+.form-select{
+ width: 40%;
+ padding: 10px 8px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border-radius: 4px
+}
+.custom-ui > button {
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.custom-ui {
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    background: #28bae6;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+    color: #fff;
+}
+
+.btn-tag{
+  padding: 2px 21px 2px 21px;
+  border-radius: 3px;
+  background: #f1f2f3;
+
+}
+.btn-custm{
+ 
+  border-radius: 3px;
+  background: #4d648d;
+  color:white;
+
+}
+.btn-tag:hover{
+  background: #4d648dc7;
+  color:white;
+}
+.active{
+  background: #4d648dc7;
+  color:white;}
